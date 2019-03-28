@@ -1,4 +1,3 @@
-
 name = "Stephen Telesmanic"
 age = 38
 age = age + (2020 - 2019)
