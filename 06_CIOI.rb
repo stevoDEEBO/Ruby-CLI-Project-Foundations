@@ -26,12 +26,14 @@ puts "#{wah}" --> returns Waaa!
 class Baby
   attr_accessor :name
 
-def initialize
-  cry
-end
+  def initialize
+    cry
+  end
 
-def cry
-  puts "Waaaaaa!"
+  def cry
+    wah = "Waaa!"
+    puts "#{wah}"
+  end
 end
 
 class Baby
